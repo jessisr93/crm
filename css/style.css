@@ -1,0 +1,511 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #e8e6e6; }
+
+header {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  top: -10em;
+  text-align: center;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  font-family: "Baskerville Old Face"; }
+  header:hover {
+    top: -4em; }
+  header:before {
+    left: 0;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: rgba(29,110,175,0.8);
+    -webkit-transform: skew(0deg, 5deg);
+    -moz-transform: skew(0deg, 5deg);
+    -ms-transform: skew(0deg, 5deg);
+    transform: skew(0deg, 5deg); }
+  header:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: rgba(29,110,175,0.8);
+    -webkit-transform: skew(0deg, -5deg);
+    -moz-transform: skew(0deg, -5deg);
+    -ms-transform: skew(0deg, -5deg);
+    transform: skew(0deg, -5deg);
+    right: 0; }
+  header nav ul {
+    margin: 0;
+    font-weight: bold;
+    padding-bottom: 2em; }
+    header nav ul li {
+      display: inline-block;
+      padding: 0 5px;
+      list-style: none; }
+      header nav ul li a {
+        font-style: none;
+        color: #d8cfcf;
+        text-decoration: none;
+        font-size: 1.5em; }
+
+.imagenHolistica img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 99.9%; }
+
+#QuienesSomos {
+  margin-bottom: 0;
+  background-color: #e8e6e6;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: "Baskerville Old Face";
+  width: 100%;
+  overflow: hidden;
+  height: 700px;
+  position: relative;
+  padding-top: 0; }
+  #QuienesSomos .nosotros {
+    position: relative;
+    width: 28%;
+    margin-left: 3.5%;
+    display: inline-block;
+    background-color: #f7f7f7;
+    vertical-align: top;
+    padding: 1em 0.5%;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    border: solid 1px #00bcd4;
+    -webkit-box-shadow: rgba(0, 188, 212, 0.4) 15px 15px 15px;
+    box-shadow: rgba(0, 188, 212, 0.4) 15px 15px 15px;
+    border-radius: 10px;
+    margin-top: 50px; }
+    #QuienesSomos .nosotros p {
+      font-size: 2em; }
+    #QuienesSomos .nosotros h3 {
+      font-size: 2.5em;
+      color: #00bcd4;
+      text-shadow: 0px 0px 1px #00bcd4; }
+
+#descripcion {
+  background-color: #00bcd4;
+  font-family: "Baskerville Old Face";
+  width: 100%;
+  height: 99.9%;
+  padding-bottom: 60px;
+  margin-top: 0;
+  padding-top: 0; }
+  #descripcion .des {
+    position: relative;
+    width: 35%;
+    margin-left: 10%;
+    display: inline-block;
+    background-color: #f7f7f7;
+    vertical-align: top;
+    padding: 3em 0.5%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #00bcd4;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0; }
+    #descripcion .des h3 {
+      background-color: rgba(247, 247, 247, 0.9);
+      color: rgba(0, 0, 0, 0.6);
+      margin-top: 40px;
+      margin-bottom: 40px;
+      -webkit-transition: all 1s linear;
+      -o-transition: all 1s linear;
+      transition: all 1s linear;
+      padding: 5px 5px; }
+    #descripcion .des p {
+      margin-bottom: 0; }
+    #descripcion .des ol li {
+      margin-bottom: 5px; }
+
+#servicios {
+  width: 100%;
+  height: 4000px;
+  background-color: #e8e6e6;
+  margin-bottom: 300px;
+  margin-top: 0;
+  position: relative; }
+  #servicios h2 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Baskerville Old Face"; }
+  #servicios .servicio {
+    height: 3000px;
+    position: relative;
+    width: 28%;
+    margin-left: 3.5%;
+    display: inline-block;
+    background-color: #f7f7f7;
+    vertical-align: top;
+    text-align: center;
+    top: 0;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 0;
+    margin-top: 0;
+    border: solid 1px #00bcd4;
+    -webkit-box-shadow: rgba(0, 188, 212, 0.4) 15px 15px 15px;
+    box-shadow: rgba(0, 188, 212, 0.4) 15px 15px 15px;
+    border-radius: 10px; }
+    #servicios .servicio #parrafo1 {
+      margin-top: 20px;
+      font-size: 0.9em; }
+    #servicios .servicio #parrafo3 {
+      margin-top: 50px; }
+    #servicios .servicio h3 {
+      font-size: 1.2em;
+      color: #00bcd4;
+      font-family: "Baskerville Old Face"; }
+    #servicios .servicio p {
+      font-size: 1em;
+      text-align: none; }
+    #servicios .servicio .ver-mas {
+      background-color: #00bcd4;
+      color: #fff;
+      font-size: 1.5em;
+      width: 50%;
+      margin: 10% auto;
+      padding: 0.5em;
+      display: block;
+      cursor: pointer;
+      border-radius: 10px; }
+    #servicios .servicio #verMas1 {
+      margin-top: 55px; }
+    #servicios .servicio #verMas2 {
+      margin-top: 30px; }
+    #servicios .servicio #verMas3 {
+      margin-top: 70px; }
+
+#cursos {
+  margin-top: 0;
+  overflow: hidden;
+  background-color: #e8e6e6;
+  padding-top: 50px;
+  text-align: center; }
+  #cursos h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Baskerville Old Face"; }
+  #cursos ul {
+    position: relative;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold; }
+    #cursos ul li {
+      display: inline-block;
+      vertical-align: top;
+      width: 18%;
+      background-color: rgba(0, 188, 212, 0.5);
+      height: 20%;
+      padding: 5% 5% 3% 5%;
+      border-radius: 50px;
+      margin-top: 0;
+      margin-right: 3%;
+      margin-top: 3%;
+      font-size: 100%; }
+    #cursos ul #cuatro {
+      padding-top: 7%;
+      padding-bottom: 1%; }
+    #cursos ul #cinco {
+      padding-top: 9%;
+      padding-bottom: 0%;
+      margin-bottom: 0%; }
+    #cursos ul #siete {
+      padding-top: 7%;
+      padding-bottom: 1%; }
+    #cursos ul #ocho {
+      padding-top: 7%;
+      padding-bottom: 1%; }
+    #cursos ul #nueve {
+      padding-top: 7%;
+      padding-bottom: 1%; }
+    #cursos ul #diez {
+      padding-top: 7%;
+      padding-bottom: 1%; }
+    #cursos ul #once {
+      padding-top: 8%;
+      padding-bottom: 0%; }
+    #cursos ul #doce {
+      padding-top: 8%;
+      padding-bottom: 0%; }
+    #cursos ul #trece {
+      padding-top: 8%;
+      padding-bottom: 0%; }
+    #cursos ul #catorce {
+      padding-top: 9%;
+      padding-bottom: 0%; }
+    #cursos ul #uno:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #dos:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #tres:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #cuatro:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #cinco:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #seis:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #siete:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #ocho:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #nueve:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #diez:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #once:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #doce:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #trece:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+    #cursos ul #catorce:hover {
+      background-color: #1dd1e8;
+      color: white;
+      cursor: pointer; }
+
+.curriculum {
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 1.5em;
+  width: 50%;
+  margin: 10% auto;
+  padding: 0.5em;
+  display: block;
+  cursor: pointer;
+  border-radius: 10px; }
+
+#ver-Esquema {
+  position: relative;
+  background-color: rgba(247, 247, 247, 0.9);
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.5em;
+  width: 50%;
+  margin-top: 10px;
+  margin: 10% auto;
+  padding: 0.2em;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 500px; }
+
+.fullScreen {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed; }
+
+#regresar-ventana {
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 1.5em;
+  width: 50%;
+  margin: 3% auto;
+  padding: 0.5em;
+  display: block;
+  cursor: pointer;
+  border-radius: 10px; }
+
+#regresar-ventanas {
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 1.5em;
+  width: 50%;
+  margin: 3% auto;
+  padding: 0.5em;
+  display: block;
+  cursor: pointer;
+  border-radius: 10px; }
+
+.enviar {
+  text-decoration: none;
+  padding: 2em auto;
+  color: red; }
+  .enviar #nombre {
+    color: blue; }
+
+#contacto {
+  height: auto;
+  padding-bottom: 1000px;
+  margin-top: 0;
+  background-color: #00bcd4;
+  width: 100%;
+  position: relative;
+  padding: 5% 0;
+  text-align: center;
+  font-family: "Baskerville Old Face"; }
+  #contacto h3 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em; }
+  #contacto p {
+    font-size: 1.5em;
+    color: #222;
+    text-shadow: 0px 0px 2px #000;
+    background-color: rgba(250, 250, 250, 0.7);
+    position: relative;
+    padding: 8px 5px;
+    margin-left: 50px;
+    margin-right: 50px; }
+  #contacto h2 {
+    font-size: 3em;
+    font-family: "Baskerville Old Face";
+    margin: 0; }
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif; }
+
+ul.social-buttons {
+  text-align: center;
+  margin-top: 50px; }
+
+ul.social-buttons li {
+  display: inline-block;
+  margin: 0 20px; }
+
+ul.social-buttons li a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 60px;
+  color: white; }
+
+ul.social-buttons li a.brandico-twitter-bird {
+  background-color: #4099FF; }
+
+ul.social-buttons li a.brandico-facebook {
+  background-color: #3B5998; }
+
+ul.social-buttons li a.brandico-instagram {
+  background-color: #3f729b; }
+
+/*Demo 1*/
+ul#demo1 li a {
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  -o-transition: transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear; }
+
+ul#demo1 li:hover a {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px); }
+
+@media (max-width: 960px) {
+  header {
+    background-color: rgba(29, 110, 175, 0.8); }
+    header nav ul li {
+      opacity: 1;
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      transition: all 0.4s; }
+    header #logo {
+      padding: 1em;
+      -webkit-transition: all 1s;
+      -o-transition: all 1s;
+      transition: all 1s; }
+    header:active nav ul {
+      height: 130px; }
+    header:active nav ul li {
+      opacity: 1; }
+    header:active #logo {
+      top: 300px; }
+  .imagenHolistica {
+    background-size: auto 100%; }
+  .fullScreen {
+    min-height: 100%;
+    height: auto; }
+  #descripcion {
+    background-size: auto 100%;
+    margin-top: 0; }
+    #descripcion .des {
+      background-size: auto 100%;
+      margin-top: 0; }
+      #descripcion .des h3 {
+        font-size: 14px; }
+      #descripcion .des p {
+        font-size: 12px; }
+      #descripcion .des ol li {
+        font-size: 13px; }
+  #QuienesSomos {
+    background-size: auto 100%;
+    height: 750px; }
+    #QuienesSomos .nosotros {
+      display: center; }
+      #QuienesSomos .nosotros .curriculum {
+        font-size: 18px; }
+  #contacto {
+    background-size: auto 100%; }
+  #servicios {
+    background-size: auto 100%;
+    height: 3000px;
+    margin-bottom: 170px; }
+    #servicios .servicio {
+      width: 28%;
+      margin: 0 auto;
+      margin-left: 2%;
+      height: 800px; }
+      #servicios .servicio .ver-mas {
+        margin-top: 0; }
+      #servicios .servicio #verMas1 {
+        margin-top: 0px; }
+      #servicios .servicio #verMas2 {
+        margin-top: 0px; }
+      #servicios .servicio #verMas3 {
+        margin-top: 0px; }
+  #go_up {
+    display: none; }
+  .img-principal {
+    display: none; } }

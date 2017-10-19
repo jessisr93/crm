@@ -1,0 +1,22 @@
+.skin-blue .sidebar-menu li a {
+  color: white; }
+
+.content-wrapper .content-header h1 small {
+  padding: 1%;
+  font-size: 0.8em; }
+  .content-wrapper .content-header h1 small:hover {
+    background: #d2d4d6; }
+  .content-wrapper .content-header h1 small a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black; }
+
+.content-wrapper .content .row .col-xs-12 .box .box-header small {
+  padding: 1%;
+  font-size: 1em; }
+  .content-wrapper .content .row .col-xs-12 .box .box-header small:hover {
+    background: #d2d4d6; }
+  .content-wrapper .content .row .col-xs-12 .box .box-header small a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black; }

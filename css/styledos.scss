@@ -1,0 +1,52 @@
+
+.skin-blue{
+	.sidebar-menu{
+		li{
+			a{
+				color: white;
+			}
+		}
+	}
+	} 
+
+.content-wrapper{
+	.content-header{
+		h1{
+		small {
+			padding: 1%;
+			font-size: 0.8em;
+		&:hover{
+			background: #d2d4d6;
+				}
+			a{
+				text-decoration: none;
+				cursor: pointer;
+				color: black;
+			}		
+			  }
+		}
+	}
+
+	.content{
+		.row{
+			.col-xs-12{
+				.box{
+					.box-header{
+						small {
+							padding: 1%;
+							font-size: 1em;
+						&:hover{
+							background: #d2d4d6;
+								}
+							a{
+								text-decoration: none;
+								cursor: pointer;
+								color: black;
+			}
+							}
+					}
+				}
+			}
+		}
+	}
+}
